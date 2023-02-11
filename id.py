@@ -14,12 +14,12 @@ from time import time
 
 
 #config
-API_ID = 1234567
-API_HASH = "1234567asdfghklmnb"
-bot_token = "12345678:aciencowqxqwpomewc"
+API_ID = 26712413
+API_HASH = "3298034eb7cec614ef852fda02536153"
+bot_token = "6060154700:AAFCIAPfWuxXvxuNAUW6FPpr7bEaH9SU7uY"
 
 
-edalet = TelegramClient('edalet', API_ID, API_HASH).start(bot_token=bot_token)
+edalet = TelegramClient('Qadir', API_ID, API_HASH).start(bot_token=bot_token)
 
 
 #@edalet_22 terefindən @RoBotlarimTg üçün yazilib silmədən istifadə edin
@@ -46,5 +46,5 @@ async def id(event):
           
           
           
-print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @nesirovqadirofficiall Məlumat almaq üçün <<")
 edalet.run_until_disconnected()
