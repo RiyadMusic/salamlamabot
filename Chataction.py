@@ -18,7 +18,7 @@ API_HASH = "**********************************"
 bot_token = "**********************************"
 
 # Telegram Client (Telethon)
-edalet = TelegramClient('edalet', API_ID, API_HASH).start(bot_token=bot_token)
+edalet = TelegramClient('Qadir', API_ID, API_HASH).start(bot_token=bot_token)
 
 
 #@edalet_22 terefindən @RoBotlarimTg üçün yazilib silmədən istifadə edin
@@ -44,5 +44,5 @@ userjoin = (
 )
 
 
-print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @nesirovqadirofficiall Məlumat almaq üçün <<")
 edalet.run_until_disconnected()
