@@ -15,12 +15,12 @@ from os import remove
 from telethon.tl.functions.users import GetFullUserRequest
 
 
-edalet = TelegramClient('edalet', API_ID, API_HASH).start(bot_token=bot_token)
+edalet = TelegramClient('Qadir', API_ID, API_HASH).start(bot_token=bot_token)
 
 #config
-API_ID = 1234567
-API_HASH = "1234567asdfghklmnb"
-bot_token = "12345678:aciencowqxqwpomewc"
+API_ID = 26712413
+API_HASH = "3298034eb7cec614ef852fda02536153"
+bot_token = "6060154700:AAFCIAPfWuxXvxuNAUW6FPpr7bEaH9SU7uY"
 
 
 #Bu kodda olan • By @EdaletRoBot yazisini silen gelib mene Ata deyer
@@ -42,5 +42,5 @@ async def banda(event):
     
     
     
-print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @nesirovqadirofficiall Məlumat almaq üçün <<")
 edalet.run_until_disconnected()
