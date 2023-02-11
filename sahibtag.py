@@ -19,14 +19,14 @@ API_HASH = "**********************************"
 bot_token = "**********************************"
 
 # Telegram Client (Telethon)
-edalet = TelegramClient('edalet', API_ID, API_HASH).start(bot_token=bot_token)
+edalet = TelegramClient('Qadir', API_ID, API_HASH).start(bot_token=bot_token)
 
 
 #@edalet_22 terefindən @RoBotlarimTg üçün yazilib silmədən istifadə edin
-@edalet.on(events.NewMessage(pattern='@edalet_22'))
-@edalet.on(events.NewMessage(pattern='edalet_22'))
-@edalet.on(events.NewMessage(pattern='ədoş'))
-@edalet.on(events.NewMessage(pattern='edalet'))
+@edalet.on(events.NewMessage(pattern='@nesirovqadirofficiall'))
+@edalet.on(events.NewMessage(pattern='nesirovqadirofficiall'))
+@edalet.on(events.NewMessage(pattern='Qadir'))
+@edalet.on(events.NewMessage(pattern='Qadir'))
 async def handler(event):
     await event.reply(random.choice(edalet))
 
@@ -38,5 +38,5 @@ edalet = (
 )
 
 
-print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @nesirovqadirofficiall Məlumat almaq üçün <<")
 edalet.run_until_disconnected()
