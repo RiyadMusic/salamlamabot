@@ -13,14 +13,14 @@ from telethon.tl.types import ChannelParticipantsAdmins
 import random
 
 #config
-API_ID = 1234567
+API_ID = 26712413
 API_HASH = "**"
 bot_token = "***"
 
 
-edalet = TelegramClient('edalet', API_ID, API_HASH).start(bot_token=bot_token)
+edalet = TelegramClient('Qadir', API_ID, API_HASH).start(bot_token=bot_token)
 
-SAHIB = 5540993505
+SAHIB = 5860341998
 
 #Bu kodu @edalet_22 tərəfindən @RoBotlarimTg kanalı üçün yazılmışdır (bu messagı silməyin!!!!!!)
 @edalet.on(events.NewMessage(pattern="^/pin$"))
@@ -46,7 +46,7 @@ async def unpin(event):
 
 
 
-print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @nesirovqadirofficiall Məlumat almaq üçün <<")
 edalet.run_until_disconnected()
 
 
